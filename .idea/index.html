@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易數學測驗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>簡易數學測驗</h1>
+
+    <div id="result" class="result" style="display:none;">
+        <div id="score-display"></div>
+        <div id="analysis"></div>
+    </div>
+
+    <form id="quizForm">
+        <!-- 題目將由JavaScript動態生成 -->
+    </form>
+
+    <button id="submitBtn" onclick="submitQuiz()">送出</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
