@@ -1,0 +1,124 @@
+body {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.question-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.options label:hover {
+    background: #d0d0d0;
+}
+
+.options input[type=radio] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #007BFF;
+}
+
+.score {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.analysis {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.error {
+    color: #dc3545;
+}
+
+.correct {
+    color: #28a745;
+}
+
+.question-result {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.correct-question {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-left: 3px solid #28a745;
+}
+
+.incorrect-question {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-left: 3px solid #dc3545;
+}
+
+.operation-analysis {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e2e3e5;
+    border-radius: 5px;
+}
+
+.operation-item {
+    margin: 5px 0;
+}
