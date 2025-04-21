@@ -1,4 +1,4 @@
-<a href="https://alfo0924.github.io/quizsample/"> quziSite </a>
+<a href="https://alfo0924.github.io/quizsample/"> quizSite </a>
 ## 數學測驗網站程式碼概述
 
 這個數學測驗網站是一個完整的前端應用程式，由HTML、CSS和JavaScript三個主要部分組成，旨在提供一個互動式的數學測驗平台，讓使用者能夠測試自己的基本四則運算能力。
